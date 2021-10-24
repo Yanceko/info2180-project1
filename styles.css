@@ -7,5 +7,187 @@ body {
 .container {
     margin: 0 auto;
     max-width: 960px;
-    width: 100%;
+    width: 100%;  
+}
+p {
+    font-size: 18px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+
+header{
+  height:100px;
+
+  font-size: 18px
+  
+}
+
+h1{
+    float:left;
+    margin: 20px;
+}
+h2{
+  font-size:24;
+  color:#48BB78;
+}
+.overview-hero-text h2{
+  color:#000000;
+}
+h3{
+  font-size:21;
+  color:#48BB78;
+}
+
+ul {
+    float:right;
+    margin: 20px;
+    color: #6b7280;
+}
+
+li:hover {
+  background-color: #5A67D8 ;
+}
+
+
+li{
+    display: inline;
+}
+
+.overview-hero{
+  height:175px;
+  background: #E2E8F0;
+  text-align: center;
+}
+
+.overview-hero-image{
+  display: inline-block;
+  width:20%;
+}
+
+img{
+    width:100px;
+    height:100px;
+}
+
+.overview-hero-text{
+    display: inline-block;
+    width: 45%;
+    
+}
+  
+.cards{
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 150px; 
+  grid-gap: 175px;
+}
+
+.card {
+  float: center;
+  background: #ffffff;
+  border-radius: 6px;
+  border-color: #E2E8F0;
+  box-shadow: 2px 2px;
+  padding: 15px;
+  margin: 0 50px;
+  width: 180px;
+  height: 390px;
+  text-align: center;
+  
+  /* vertically and horizontally center text inside box */
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+
+
+.learn-about{
+  height: 490px;
+  text-align: left;
+
+}
+
+.testing{
+  height: 230px;
+   background: #4A5568;
+}
+
+.testing-desciption h2 {
+  color:#ffffff;
+}
+.testing-desciption p {
+  color:#ffffff;
+}
+
+.testing-desciption{
+  display: inline-block;
+    width: 50%;
+  text-align:left;
+  margin-left:5%;
+}
+
+.cta{
+  position: relative;
+  float:right;
+  top: 70px;
+  text-align:middle;
+  background:#48BB78;
+  border-radius: 5px;
+  margin-right: 10%;
+  padding:15px;
+  display: inline-block;
+}
+.cta a{
+  color:#ffffff;
+}
+
+btn{
+  background:#4A5568;
+}
+
+
+.stories h2{
+  color:#5A67D8;
+}
+.stories a{
+  color:#5A67D8;
+}
+.stories h3{
+  color:#000000;
+}
+
+.stories img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+
+.newsletter{
+  height:175px;
+  text-align:center;
+  background-color:#48BB78;
+  color:white;
+}
+.form-group{
+  display:inline;
+}
+.newsletter h3{
+  color:#ffffff;
+  font-size:25px;
+}
+button{
+  background:#5A67D8;
+  padding:5px;
+  color:white;
+}
+
+footer{
+  padding:5px;
+  background-color:#4A5568;
+  color:#ffffff;
 }
